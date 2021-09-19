@@ -2,8 +2,8 @@
 
 class kalkulator
 {
-  private $x;
-  private $y;
+  protected $x;
+  protected $y;
 
   public function Tambah($x, $y)
   {
@@ -39,7 +39,7 @@ class kalkulator
 
   public function TampilkanForm()
   {
-      echo "<h2><center>kalkulator</h2>";
+      echo "<h2>kalkulator</h2>";
     echo '<form method="POST">';
     echo '<input type="text" name="x"> &nbsp;';
     echo '<select name="operasi">
